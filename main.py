@@ -19,7 +19,7 @@ def main():
     results = roll_dice(amount, sides)
 
     for i, result in enumerate(results, start=1):
-        print(f"Lanzamiento {i} número obtenido {result}")
+        print(f"EL Lanzamiento {i} número obtenido {result}")
         if i < len(results):
             time.sleep(5)
 
