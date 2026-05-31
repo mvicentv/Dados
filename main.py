@@ -3,7 +3,8 @@ import time
 import dice
 
 
-def roll_dice(amount: int, sides: int) -> list"""
+def roll_dice(amount: int, sides: int) -> list:
+    """
     Devuelve una lista de tamaño 'amount' con los resultados
     de lanzar un dado de 'sides' caras.
     """
